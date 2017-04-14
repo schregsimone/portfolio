@@ -13,3 +13,8 @@ function openNav() {
 function closeNav() {
     document.getElementById("about-tab").style.height = "0";
 }
+
+function touchOverlay() {
+  document.getElementById("overlay").style.opacity = "1";
+  document.getElementById("overlay").style.transition = ".5s ease";
+}

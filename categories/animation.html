@@ -22,8 +22,8 @@ layout: category
           <div class="row category-row">
               {% for post in site.categories.animation %}
                     <div class="col-sm-6 category-grid">
-                      <a href="{{site.baseurl}}{{post.url}}" class=category-link>
-                      <div class="category-info-overlay">
+                      <a href="{{site.baseurl}}{{post.url}}" class=category-link ontouchstart="touchOverlay">
+                      <div class="category-info-overlay" id="overlay">
                       <h1>{{post.title}}</h1>
                       <p>{{ post.meta }}</p>
                       </div>
