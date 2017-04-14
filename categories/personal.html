@@ -17,16 +17,21 @@ layout: category
 <!-- / HEADER -->
 
 <!-- MAIN -->
-    <main>
-        <div class="category-content">
-          <div class="row category-row">
-              {% for post in site.categories.personal %}
-                    <div class="col-sm-6 category-grid">
-                      <a href="{{site.baseurl}}{{post.url}}"> {{post.title}}</a>
-                      <p>{{ post.meta }}</p>
-                    </div>
-              {% endfor %}
-            </div>
+<main>
+    <div class="category-content">
+      <div class="row category-row">
+          {% for post in site.categories.personal %}
+                <div class="col-sm-6 category-grid">
+                  <a href="{{site.baseurl}}{{post.url}}" class=category-link>
+                  <div class="category-info-overlay">
+                  <h1>{{post.title}}</h1>
+                  <p>{{ post.meta }}</p>
+                  </div>
+                  <img class="category-img" src="{{post.image}}" width="100%">
+                  </a>
+                </div>
+          {% endfor %}
         </div>
-    </main>
+    </div>
+</main>
 <!-- / MAIN -->

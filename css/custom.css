@@ -246,6 +246,7 @@ Category Grid System
  border-top: 5px solid black;
  padding: 0;
  overflow: hidden;
+ text-align: center;
 }
 
 .category-info-overlay {
@@ -267,9 +268,10 @@ Category Grid System
   color: black;
 }
 
-.category-link:hover .category-info-overlay {
+.category-link:hover .category-info-overlay,
+.category-link:active .category-info-overlay {
   opacity: 1;
-   transition: .5s ease;
+  transition: .5s ease;
 }
 
 
