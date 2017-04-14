@@ -236,23 +236,77 @@ Category Grid System
 .category-content {
    height: 100%;
    width: 100%;
-   padding: 20px;
-   padding-top: 155px;
+   padding-top: 160px;
    padding-bottom: 44px;
 }
-.category-row {
-padding: 0 20px;
-}
+
 .category-grid {
- background: #840644;
  height: 100px;
- margin-bottom: 15px;
+ margin-bottom: 0px;
+ border-top: 5px solid black;
  text-decoration: none;
+ padding: 10px 30px;
 }
 
 /* ***************************************************************
 POST
 *************************************************************** */
+.post-category-title{
+  font-family:AvenirNextCondensed-Bold, Avenir Next Condensed;
+  font-weight:700;
+  font-size: 20px;
+  position: absolute;
+  left: 40px;
+  top: 12px;
+  text-align:left;
+}
+
+.post-category-title:hover {
+  color: lightgrey;
+  cursor: pointer;
+}
+.post-header {
+  position: relative;
+  width: 320px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.post-header .fa-angle-left {
+  position: absolute;
+  left: 0px;
+  top: 30px;
+}
+.fa:hover {
+  color: lightgrey;
+  cursor: pointer;
+}
+
+.post-header .fa-angle-right {
+  position: absolute;
+  right: 0px;
+  top: 30px;
+}
+
+#navbar-post-svg {
+height: 90px;
+fill: lightgrey;
+position: absolute;
+left: 95px;
+top: 8px;
+}
+
+/* hover macht punkte grau */
+#navbar-post-svg:hover {
+  fill: lightgrey;
+  cursor: pointer;
+}
+
+/* hover macht pfad grau */
+#navbar-post-svg:hover path{
+  stroke: lightgrey;
+}
+
 .post-content {
    height: 100%;
    width: 100%;
