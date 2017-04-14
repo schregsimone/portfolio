@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: post
 title: erster post
 meta: dies ist der erste post
 category: animation
+category-title: ANI-<br>MATION
 ---
