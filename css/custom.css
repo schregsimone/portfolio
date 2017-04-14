@@ -269,7 +269,8 @@ Category Grid System
 }
 
 .category-link:hover .category-info-overlay,
-.category-link:active .category-info-overlay {
+.category-link:active .category-info-overlay,
+.category-link:focus .category-info-overlay {
   opacity: 1;
   transition: .5s ease;
 }
