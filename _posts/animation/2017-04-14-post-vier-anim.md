@@ -1,6 +1,6 @@
 ---
 layout: post
-title: dritter post
+title: vierter post
 meta: dies ist der erste post
 category: animation
 category-title: ANI-<br>MATION

@@ -244,16 +244,32 @@ Category Grid System
  height: 200px;
  margin-bottom: 0px;
  border-top: 5px solid black;
+ padding: 0;
+ overflow: hidden;
 }
 
-.category-info {
+.category-info-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
   padding: 10px 30px;
   text-decoration: none;
-  position: absolute;
 }
 
-.category-img {
+.category-link:hover,
+.category-link:focus {
+  color: black;
+}
 
+.category-link:hover .category-info-overlay {
+  opacity: 1;
+   transition: .5s ease;
 }
 
 
