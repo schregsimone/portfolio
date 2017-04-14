@@ -22,8 +22,11 @@ layout: category
           <div class="row category-row">
               {% for post in site.categories.animation %}
                     <div class="col-sm-6 category-grid">
+                      <div class="category-info">
                       <a href="{{site.baseurl}}{{post.url}}"> {{post.title}}</a>
                       <p>{{ post.meta }}</p>
+                      </div>
+                      <img class="category-img" src="{{post.image}}" width="100%">
                     </div>
               {% endfor %}
             </div>

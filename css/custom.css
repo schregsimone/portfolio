@@ -241,12 +241,21 @@ Category Grid System
 }
 
 .category-grid {
- height: 100px;
+ height: 200px;
  margin-bottom: 0px;
  border-top: 5px solid black;
- text-decoration: none;
- padding: 10px 30px;
 }
+
+.category-info {
+  padding: 10px 30px;
+  text-decoration: none;
+  position: absolute;
+}
+
+.category-img {
+
+}
+
 
 /* ***************************************************************
 POST
