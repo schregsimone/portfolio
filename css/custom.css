@@ -1,0 +1,249 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  height: 100%;
+}
+
+h1 {
+  font-family:AvenirNextCondensed-Bold, Avenir Next Condensed;
+  font-weight:700;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+/* ***************************************************************
+/***************************************************************
+index.html
+/***************************************************************
+/*************************************************************** */
+
+/* ***************************************************************
+SVG MENU
+*************************************************************** */
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    overflow-x: auto;
+    height: 100%;
+    padding: 20px;
+}
+
+#menu-svg {
+    position: absolute;
+    height: 70%;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin: auto;
+}
+
+#menu-svg path {
+    stroke-dasharray: 7000;
+    stroke-dashoffset: 0;
+    animation: dash 6s linear forwards;
+}
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 7000;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.menu-link {
+z-index: 1;
+}
+
+.menu-link:hover {
+  text-decoration: none;
+  fill: lightgrey;
+  cursor: pointer;
+}
+
+/* ***************************************************************
+ABOUT Button und Tab
+*************************************************************** */
+
+.about-link {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 5px 5px;
+    text-align: center;
+    height: 44px;
+    font-size: 20px;
+    border-top: 5px solid black;
+    background: white;
+    font-family:AvenirNextCondensed-Bold, Avenir Next Condensed;
+    font-weight:700;
+    z-index: 4;
+}
+.mcbtn:hover,
+.mcbtn:active {
+  text-decoration: none;
+  color: lightgrey;
+  cursor: pointer;
+}
+
+
+.about-tab {
+    height: 0;
+    /* 0 height - change this with JavaScript */
+    width: 100%;
+    /* 100% Full-width */
+    position: fixed;
+    /* Stay in place */
+    z-index: 3;
+    /* Stay on top */
+    bottom: 0px;
+    background-color: white;
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+    border-top: 5px solid black;
+}
+
+.about-container {
+  width: 100%;
+  height: 100%;
+}
+
+.about-text {
+  text-align: center;
+  padding-bottom: 90px
+}
+.about-text img{
+  max-width: 500px;
+  margin-top: 15px;
+  }
+  .about-text h1,
+  .about-text p{
+    text-align: left;
+    padding: 0 20px;
+  }
+
+
+.social-icons {
+ position: fixed;
+width: 100%;
+ text-align: center;
+ bottom: 44px;
+ padding-bottom: 5px;
+ color: black;
+ background: white;
+}
+
+.social-icons i {
+ margin: 10px 15px;
+}
+
+/* ***************************************************************
+/***************************************************************
+Kategorien Seiten
+/***************************************************************
+/*************************************************************** */
+header {
+ position: fixed;
+  top: 0;
+  width: 100%;
+  height: 150px;
+  padding: 10px 0;
+  text-align: center;
+  background: white;
+  z-index: 2;
+}
+
+.category-title{
+  font-family:AvenirNextCondensed-Bold, Avenir Next Condensed;
+  font-weight:700;
+  font-size: 25px;
+  position: absolute;
+  left: 0px;
+  top: 60px;
+  text-align:left;
+}
+.category-header {
+  position: relative;
+  width: 320px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.category-header .fa-angle-left {
+  position: absolute;
+  left: 0px;
+  top: 30px;
+}
+.fa:hover {
+  color: lightgrey;
+  cursor: pointer;
+}
+
+.category-header .fa-angle-right {
+  position: absolute;
+  right: 0px;
+  top: 30px;
+}
+
+#_1_active,
+#_2_active,
+#_3_active,
+#_4_active,
+#_5_active {
+  fill: black;
+}
+
+#navbar-svg {
+height: 109px;
+fill: lightgrey;
+}
+
+/* hover macht punkte grau */
+#navbar-svg:hover {
+  fill: lightgrey;
+  cursor: pointer;
+}
+
+/* hover macht pfad grau */
+#navbar-svg:hover path{
+  stroke: lightgrey;
+}
+
+/* ***************************************************************
+Category Grid System
+*************************************************************** */
+.category-content {
+   height: 100%;
+   width: 100%;
+   padding: 20px;
+   padding-top: 155px;
+   padding-bottom: 44px;
+}
+.category-row {
+padding: 0 20px;
+}
+.category-grid {
+ background: #840644;
+ height: 100px;
+ margin-bottom: 15px;
+ text-decoration: none;
+}
