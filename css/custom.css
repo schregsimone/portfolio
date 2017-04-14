@@ -284,7 +284,7 @@ POST
   font-weight:700;
   font-size: 20px;
   position: absolute;
-  left: 40px;
+  left: 33px;
   top: 12px;
   text-align:left;
 }
@@ -317,11 +317,11 @@ POST
 }
 
 #navbar-post-svg {
-height: 90px;
+height: 80px;
 fill: lightgrey;
 position: absolute;
-left: 95px;
-top: 8px;
+right: 33px;
+top: 15px;
 }
 
 /* hover macht punkte grau */
