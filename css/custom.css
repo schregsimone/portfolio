@@ -22,7 +22,7 @@ p {
 
 p > a {
   font-weight: lighter;
-  
+
 }
 p > a:hover {
   font-weight: lighter;
@@ -53,11 +53,11 @@ SVG MENU
 
 #menu-svg {
     position: absolute;
-    height: 70%;
-    top: 0;
+    height: 75%;
+    top: -10px;
     bottom: 0;
-    left: 20px;
-    right: 20px;
+    left: 15px;
+    right: 15px;
     padding-right: 40px;
     padding-left: 40px;
     margin: auto;
@@ -67,6 +67,12 @@ SVG MENU
     stroke-dasharray: 7000;
     stroke-dashoffset: 0;
     animation: dash 6s linear forwards;
+    visibility: hidden;
+}
+
+#menu-svg path.cls-1 {
+  animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
 }
 
 @keyframes dash {
@@ -75,7 +81,9 @@ SVG MENU
     }
     to {
         stroke-dashoffset: 0;
+        visibility: visible;
     }
+
 }
 
 .menu-link {
@@ -155,6 +163,7 @@ ABOUT Button und Tab
 
 .social-icons {
  position: fixed;
+ visibility:hidden;
 width: 100%;
  text-align: center;
  bottom: 44px;

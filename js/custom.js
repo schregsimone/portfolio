@@ -7,9 +7,11 @@ function replace(hide, show) {
 /* Set the height of the about tab to 100% */
 function openNav() {
     document.getElementById("about-tab").style.height = "100%";
+    document.getElementById("social-icons").style.visibility = "visible";
 }
 
 /* Set the height of the about tab to 0 */
 function closeNav() {
     document.getElementById("about-tab").style.height = "0";
+    document.getElementById("social-icons").style.visibility = "hidden";
 }
