@@ -28,7 +28,7 @@
 <body>
 
   <!-- HEADER -->
-  <header>
+  <header class="header-post">
     <div class="post-header">
         <a href="{{ page.next.url }}"><i class="fa fa-angle-left fa-3x" aria-hidden="true"></i></a>
         <a href="{{ site.baseurl }}/index.html" class="navbar-link">
@@ -41,18 +41,17 @@
   </header>
   <!-- / HEADER -->
 
-<main>
-  <div class="post-content">
+<main class="post-main">
 
-<img class="post-img" src="{{ site.baseurl }}/img/{{ page.image }}" width="100%">
+<img src="{{ site.baseurl }}/img/{{ page.image }}" width="100%">
 
-<h1 class="post-title">{{page.title}}<h1>
+<h1 class="post-content post-title">{{page.title}}<h1>
 
 {{content}}
 
 
 
-</div>
+
 </main>
 
 
