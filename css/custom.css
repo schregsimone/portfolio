@@ -13,20 +13,27 @@ h1 {
   text-transform: uppercase;
 }
 
+h2 {
+  font-family:'Open Sans', sans-serif;
+  font-weight:light;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #BBBBBB;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-size: 15px;
   line-height: 1.6em;
   text-transform: none;
+  color: black;
 }
 
 p > a {
-  font-weight: lighter;
-
+  color: #BBBBBB;
 }
 p > a:hover {
-  font-weight: lighter;
   color: black;
 }
 
@@ -168,7 +175,7 @@ ABOUT Button und Tab
   .about-text h1,
   .about-text p{
     text-align: left;
-    padding: 0 20px;
+    padding: 0 30px;
   }
 
 
@@ -180,6 +187,7 @@ ABOUT Button und Tab
  padding-bottom: 5px;
  color: black;
  background: white;
+ visibility: hidden;
 }
 
 .social-icons i {
@@ -423,6 +431,7 @@ Post Inhalt
     height: 0;
     overflow: hidden;
     margin-top: 20px;
+
 }
 
 .responsive-video iframe {
@@ -431,6 +440,7 @@ Post Inhalt
   left: 0;
   width: 100%;
   height: 100%; }
+
 
 
 /* ----------------------------------------------

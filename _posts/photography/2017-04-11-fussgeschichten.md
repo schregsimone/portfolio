@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fussgeschichten
-meta: Storytelling in low angle
+meta: I <i class="fa fa-heart-o" aria-hidden="true"></i> storytelling in low angle
 category: photography
 category-title: PHOTO-<br>GRAPHY
 category-url: photography.html
@@ -25,4 +25,5 @@ image: ../img/photography/1_fussgeschichten_1.jpg
 <img class="post-img" src="../../../../img/photography/1_fussgeschichten_13.jpg" width="100%">
 
 <img class="post-img" src="../../../../img/photography/1_fussgeschichten_5.jpg" width="100%">
+
 <img class="post-img" src="../../../../img/photography/1_fussgeschichten_4.jpg" width="100%">
