@@ -15,7 +15,6 @@ h1 {
 
 h2 {
   font-family:'Open Sans', sans-serif;
-  font-weight:light;
   font-size: 15px;
   text-transform: uppercase;
   color: #BBBBBB;
@@ -165,14 +164,15 @@ ABOUT Button und Tab
 }
 
 .about-text {
-  text-align: center;
   padding-bottom: 90px
 }
+
 .about-text img{
   max-width: 500px;
   margin-top: 15px;
   }
   .about-text h1,
+  .about-text h2,
   .about-text p{
     text-align: left;
     padding: 0 30px;
@@ -290,7 +290,7 @@ Category Grid System
   opacity: 0;
   transition: .5s ease;
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.7);
    z-index: 2;
    padding-top: 50px;
 }
@@ -321,6 +321,13 @@ Category Grid System
 -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 -moz-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.category-link p {
+  font-family:'Open Sans', sans-serif;
+  font-weight:light;
+  font-size: 15px;
+  text-transform: uppercase;
 }
 
 
