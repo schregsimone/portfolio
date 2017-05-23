@@ -15,3 +15,19 @@ function closeNav() {
     document.getElementById("about-tab").style.height = "0";
     document.getElementById("social-icons").style.visibility = "hidden";
 }
+
+/* Text in About ändern */
+var text = ["multimedia","good design","creative ideas","dancing","laughing","fluffy pullovers","travelling","all things sweet","snowboarding", "musicfestivals","rabbits","fast walking","memes","friendly people","summer evenings","rollercoasters","chicken nuggets"];
+var index = 0;
+
+$("#likes").fadeOut("slow");
+
+setInterval(function(){
+    $("#likes").stop().html(text[index]).fadeIn("slow",function(){
+    	index++;
+        $("#likes").delay(1000).fadeOut("slow");
+    	if (index == 17) {
+        	index = 0;
+    	};
+    });
+},2400);
