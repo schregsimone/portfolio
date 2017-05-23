@@ -9,7 +9,7 @@ image: ../img/animation/02_little_girl_2.jpg
 ---
 
 
-<p class="post-content">As part of the animation class we had to design a character and animate it in three different gifs. I chose to draw a mini-me and make her a bit clumsy but happy.</p>
+<p class="post-content">As part of the animation class we had to design a character and animate it in three different gifs. I chose to draw a clumsy mini-me.</p>
 
 <img class="post-img" src="../../../../img/animation/02_little_girl_1.jpg" width="100%">
 <img class="post-img" src="../../../../img/animation/02_little_girl_3.gif" width="100%">
