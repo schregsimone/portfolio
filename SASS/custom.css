@@ -1,0 +1,487 @@
+/* line 1, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+html {
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 5, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+body {
+  height: 100%; }
+
+/* line 9, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+h1 {
+  font-family: AvenirNextCondensed-Bold, Avenir Next Condensed;
+  font-weight: 700;
+  font-size: 23px;
+  text-transform: uppercase; }
+
+/* line 16, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #BBBBBB; }
+
+/* line 23, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 1.6em;
+  text-transform: none;
+  color: black; }
+
+/* line 32, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+p > a {
+  color: #BBBBBB; }
+
+/* line 36, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+p > a:hover {
+  color: black; }
+
+/* line 40, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background: white;
+  z-index: 50; }
+
+/* ***************************************************************
+/***************************************************************
+index.html
+/***************************************************************
+/*************************************************************** */
+/* ***************************************************************
+SVG MENU
+*************************************************************** */
+/* line 62, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  overflow-x: auto;
+  height: 100%;
+  padding: 20px; }
+
+/* line 74, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+#menu-svg {
+  position: absolute;
+  height: 75%;
+  top: -10px;
+  bottom: 0;
+  left: 15px;
+  right: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin: auto; }
+  /* line 85, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+  #menu-svg path {
+    stroke-dasharray: 7000;
+    stroke-dashoffset: 0;
+    animation: dash 6s linear forwards;
+    visibility: hidden; }
+  /* line 92, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+  #menu-svg path.cls-1 {
+    animation-delay: 0.6s;
+    -webkit-animation-delay: 0.6s; }
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 7000; }
+  to {
+    stroke-dashoffset: 0;
+    visibility: visible; } }
+
+/* line 108, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.menu-link {
+  z-index: 1; }
+  /* line 111, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+  .menu-link:hover {
+    text-decoration: none;
+    fill: lightgrey;
+    cursor: pointer; }
+
+/* ***************************************************************
+ABOUT Button und Tab
+*************************************************************** */
+/* line 122, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.about-link {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 5px 5px;
+  text-align: center;
+  height: 44px;
+  font-size: 20px;
+  border-top: 5px solid black;
+  background: white;
+  font-family: AvenirNextCondensed-Bold, Avenir Next Condensed;
+  font-weight: 700;
+  z-index: 100; }
+
+/* line 138, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.mcbtn:hover,
+.mcbtn:active {
+  text-decoration: none;
+  color: lightgrey;
+  cursor: pointer; }
+
+/* line 145, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.about-tab {
+  height: 0;
+  /* 0 height - change this with JavaScript */
+  width: 100%;
+  /* 100% Full-width */
+  position: fixed;
+  /* Stay in place */
+  z-index: 99;
+  /* Stay on top */
+  bottom: 0px;
+  background-color: white;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+  border-top: 5px solid black; }
+
+/* line 163, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.about-container {
+  width: 100%;
+  height: 100%; }
+
+/* line 168, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.about-text {
+  padding-bottom: 90px; }
+
+/* line 172, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.img-wrapper {
+  width: 100%;
+  text-align: center; }
+
+/* line 177, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.about-text img {
+  max-width: 500px;
+  margin-top: 15px; }
+
+/* line 182, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.about-text h1,
+.about-text h2,
+.about-text p {
+  text-align: left;
+  padding: 0 30px; }
+
+/* line 189, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.about-like {
+  color: black;
+  margin: 30px 0; }
+
+/* line 194, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.social-icons {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  bottom: 44px;
+  padding-bottom: 5px;
+  color: black;
+  background: white;
+  visibility: hidden; }
+
+/* line 205, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.social-icons i {
+  margin: 10px 15px; }
+
+/* ***************************************************************
+/***************************************************************
+Kategorien Seiten
+/***************************************************************
+/*************************************************************** */
+/* line 216, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.header-category {
+  height: 150px; }
+
+/* line 220, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.category-title {
+  font-family: AvenirNextCondensed-Bold, Avenir Next Condensed;
+  font-weight: 700;
+  font-size: 23px;
+  position: absolute;
+  left: 0px;
+  top: 60px;
+  text-align: left; }
+
+/* line 230, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.category-header {
+  position: relative;
+  width: 320px;
+  text-align: center;
+  margin: 0 auto; }
+
+/* line 237, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.category-header .fa-angle-left {
+  position: absolute;
+  left: 0px;
+  top: 30px; }
+
+/* line 243, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.fa:hover {
+  color: lightgrey;
+  cursor: pointer; }
+
+/* line 248, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.category-header .fa-angle-right {
+  position: absolute;
+  right: 0px;
+  top: 30px; }
+
+/* line 254, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+#_1_active,
+#_2_active,
+#_3_active,
+#_4_active,
+#_5_active {
+  fill: black; }
+
+/* line 262, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+#navbar-svg {
+  height: 109px;
+  fill: lightgrey; }
+
+/* hover macht punkte grau */
+/* line 270, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+#navbar-svg:hover {
+  fill: lightgrey;
+  cursor: pointer; }
+
+/* hover macht pfad grau */
+/* line 278, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+#navbar-svg:hover path {
+  stroke: lightgrey; }
+
+/* ***************************************************************
+Category Grid System
+*************************************************************** */
+/* line 287, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.category-content {
+  height: 100%;
+  width: 100%;
+  padding-top: 140px;
+  padding-bottom: 44px; }
+
+/* line 294, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.category-grid {
+  height: 230px;
+  margin-bottom: 0px;
+  border-top: 10px solid white;
+  padding: 0;
+  overflow: hidden;
+  text-align: center; }
+
+/* line 303, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.category-info-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 2;
+  padding-top: 50px; }
+
+/* line 319, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.category-link:hover,
+.category-link:focus {
+  color: black; }
+
+/* line 324, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.category-link:hover .category-info-overlay,
+.category-link:active .category-info-overlay,
+.category-link:focus .category-info-overlay {
+  opacity: 1;
+  transition: .5s ease; }
+
+/* line 331, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.category-link:hover h1,
+.category-link:active h1,
+.category-link:focus h1 {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -moz-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+
+/* line 339, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.category-link:hover p,
+.category-link:active p,
+.category-link:focus p {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -moz-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+
+/* line 347, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.category-link p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: light;
+  font-size: 15px;
+  text-transform: uppercase; }
+
+/* line 354, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.category-img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  z-index: 1; }
+
+/* ***************************************************************
+/***************************************************************
+Post Seiten
+/***************************************************************
+/*************************************************************** */
+/* ***************************************************************
+Post Header
+*************************************************************** */
+/* line 375, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.header-post {
+  height: 120px; }
+
+/* line 379, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.post-category-title {
+  font-family: AvenirNextCondensed-Bold, Avenir Next Condensed;
+  font-weight: 700;
+  font-size: 20px;
+  position: absolute;
+  left: 30px;
+  top: 12px;
+  text-align: left; }
+
+/* line 389, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.post-category-title:hover {
+  color: lightgrey;
+  cursor: pointer; }
+
+/* line 394, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.post-header {
+  position: relative;
+  width: 320px;
+  text-align: center;
+  margin: 0 auto; }
+
+/* line 401, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.post-header .fa-angle-left {
+  position: absolute;
+  left: 0px;
+  top: 30px; }
+
+/* line 407, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.fa:hover {
+  color: lightgrey;
+  cursor: pointer; }
+
+/* line 412, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.post-header .fa-angle-right {
+  position: absolute;
+  right: 0px;
+  top: 30px; }
+
+/* line 418, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+#navbar-post-svg {
+  height: 80px;
+  fill: lightgrey;
+  position: absolute;
+  right: 30px;
+  top: 15px; }
+
+/* hover macht punkte grau */
+/* line 429, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+#navbar-post-svg:hover {
+  fill: lightgrey;
+  cursor: pointer; }
+
+/* hover macht pfad grau */
+/* line 437, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+#navbar-post-svg:hover path {
+  stroke: lightgrey; }
+
+/* ***************************************************************
+Post Inhalt
+*************************************************************** */
+/* line 446, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.post-main {
+  height: 100%;
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 34px; }
+
+/* line 453, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.post-content {
+  padding: 0 30px; }
+
+/* line 457, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.post-img {
+  margin-top: 20px; }
+
+/* line 461, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.responsive-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0px;
+  height: 0;
+  overflow: hidden;
+  margin-top: 20px; }
+
+/* line 470, /Users/Simone/Desktop/portfolio scss/SASS/custom.scss */
+.responsive-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/* ----------------------------------------------
+ * Post Titel Animation
+ * Generated by Animista on 2017-5-21 16:0:40
+ * http://animista.net
+ * T: @cssanimista
+ * ---------------------------------------------- */
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px); }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px); }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+/*# sourceMappingURL=custom.css.map */
