@@ -289,6 +289,11 @@ Category Grid System
     width: 100%;
     padding-top: 140px;
     padding-bottom: 44px;
+    
+    @media (min-width: 768px) {
+     padding-left: 3%;
+     padding-right: 3%;
+    }
 }
 
 .category-grid {
@@ -298,6 +303,17 @@ Category Grid System
     padding: 0;
     overflow: hidden;
     text-align: center;
+    
+    @media screen and (min-width: 570px) {
+        height: 270px;
+    }
+    @media (min-width: 768px) {
+     border-top: 10px solid white;
+     border-left: 15px solid white;
+     border-right: 15px solid white;
+    background: grey;  /* nur zum sehen wie gross bilder sein müssten */
+     height: 280px;
+    }
 }
 
 .category-info-overlay {

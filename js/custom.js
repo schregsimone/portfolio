@@ -1,6 +1,6 @@
-if ($(window).width() > 600) {
-   alert('Please open on mobile device!');
-}
+// if ($(window).width() > 600) {
+//   alert('Please open on mobile device!');
+// }
 
 /* Funktion um per Klick zwischen Menu und Close zu wechseln*/
 function replace(hide, show) {
