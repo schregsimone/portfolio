@@ -23,13 +23,18 @@ image: ../img/photography/5_indonesien_1.jpg
     </tr>
 </table>
 
-<p class="post-content"> blablabal
-</p>
+<p class="post-content"> Mit viel zu schwerem Rucksack, Kamera und einer guten Freundin reiste ich im Sommer 2017 vier Wochen lang durch Indonesien. Unsere Reise führte von Java über Bali bis nach Gili Trawangan, vorbei an schwimmenden Städten, gigantischen Tempelanlagen, wunderschönen Vulkanlandschaften, traumhaften Surfspots und mit Touristen überfüllten Reisfeldern. Einige meiner Eindrücke konnte ich fotografisch einfangen.</p>
+
+<h3 class="post-content">Menschen</h3>
 
 <img class="post-img" src="../../../../img/photography/5_indonesien_2.jpg" width="100%">
 <img class="post-img" src="../../../../img/photography/5_indonesien_3.jpg" width="100%">
 <img class="post-img" src="../../../../img/photography/5_indonesien_4.jpg" width="100%">
 <img class="post-img" src="../../../../img/photography/5_indonesien_5.jpg" width="100%">
 <img class="post-img" src="../../../../img/photography/5_indonesien_6.jpg" width="100%">
+
+
+<h3 class="post-content">Landschaften</h3>
 <img class="post-img" src="../../../../img/photography/5_indonesien_7.jpg" width="100%">
 <img class="post-img" src="../../../../img/photography/5_indonesien_8.jpg" width="100%">
+<img class="post-img" src="../../../../img/photography/5_indonesien_9.jpg" width="100%">

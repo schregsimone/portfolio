@@ -20,6 +20,12 @@ h2 {
     color: #BBBBBB;
 }
 
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 #likes {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
@@ -39,7 +45,10 @@ p>a {
     color: #BBBBBB;
 }
 
-p>a:hover {
+p>a:hover,
+p>a:active,
+td>a:hover,
+td>a:active{
     color: black;
 }
 
@@ -264,7 +273,9 @@ Kategorien Seiten
 .fa-instagram:hover,
 .fa-edit:hover,
 .fa-comment-o:hover,
-.fa-envelope-o:hover {
+.fa-envelope-o:hover,
+.fa-angle-left:hover,
+.fa-angle-right:hover {
     color: lightgrey;
     cursor: pointer;
 }
@@ -484,6 +495,26 @@ Post Inhalt
     width: 100%;
     padding-top: 100px; // gleich wie height von .header-post
     padding-bottom: 34px;
+    @media screen and (min-width: 768px) {
+        width: 80%;
+        margin-left: 10%;
+        padding-bottom: 54px;
+    }
+     @media screen and (min-width: 960px) {
+        width: 70%;
+        margin-left: 15%;
+        padding-bottom: 54px;
+    }
+     @media screen and (min-width: 1120px) {
+        width: 60%;
+        margin-left: 20%;
+        padding-bottom: 54px;
+    }
+    @media screen and (min-width: 1300px) {
+        width: 50%;
+        margin-left: 25%;
+        padding-bottom: 54px;
+    }
 }
 
 .post-content {

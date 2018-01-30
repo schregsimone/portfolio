@@ -11,7 +11,7 @@ image: ../img/photography/4_filterblick_3.jpg
 <table class="post-content facts table">
     <tr>
         <th>Entstehung:</th>
-        <td>Frühlingssemester 2016</td>
+        <td>Frühling 2016</td>
     </tr>
     <tr>
         <th>Kontext:</th>
@@ -19,7 +19,7 @@ image: ../img/photography/4_filterblick_3.jpg
     </tr>
     <tr>
         <th>Team:</th>
-        <td>Dana Hausherr, Seraina Sprick, Simona Ritter</td>
+        <td>Seraina Sprick</td>
     </tr>
     <tr>
         <th>Tätigkeiten:</th>
@@ -29,7 +29,7 @@ image: ../img/photography/4_filterblick_3.jpg
 
 <p class="post-content">Was wir Menschen von der Welt sehen, ist nur ein Bruchteil von dem, was sie in Wirklichkeit zu bieten hat. Wer sich die Zeit nimmt und seine Umgebung mal durch einen Filter fotografiert, kann festhalten, was mit blossem Auge nicht sichtbar ist.</p>
 <p class="post-content">
-Fasziniert von der Infrarotfotografie habe ich mit meinen Kolleginnen eine Bilderserie erstellt und diese zusammen mit einer Kurzgeschichte auf einer <a href="http://www.digezz.ch/projekte/filterblick/" target="_blank">Webseite</a> publiziert. 
+Fasziniert von der Infrarotfotografie habe ich eine Bilderserie fotografiert und diese zusammen mit Serainas Kurzgeschichte auf einer <a href="http://www.digezz.ch/projekte/filterblick/" target="_blank">Webseite</a> publiziert. 
 </p>
 
 <img class="post-img" src="../../../../img/photography/4_filterblick_1.jpg" width="100%">

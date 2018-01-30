@@ -11,7 +11,7 @@ image: ../img/photography/1_fussgeschichten_1.jpg
 <table class="post-content facts table">
     <tr>
         <th>Entstehung:</th>
-        <td>Herbstsemester 2013</td>
+        <td>Herbst 2013</td>
     </tr>
     <tr>
         <th>Kontext:</th>
@@ -25,7 +25,7 @@ image: ../img/photography/1_fussgeschichten_1.jpg
 
 <p class="post-content">«Ein Bild sagt mehr als tausend Worte.»</p>
 
-<p class="post-content">Fotografie scheint also das perfekt Medium für schreibfaule Geschichtenerzähler, wie ich es bin, zu sein. Ob das wirklich so ist und ob das visuelle Storytelling auch aus einer ungewohnten Perspektive funktioniert, habe ich in meiner Maturaarbeit an der Kantonsschule Wattwil untersucht.</p> 
+<p class="post-content">Fotografie scheint also das perfekt Medium für schreibfaule Geschichtenerzähler, wie ich es bin, zu sein. Ob das wirklich so ist und ob visuelles Storytelling auch aus einer ungewohnten Perspektive funktioniert, habe ich in meiner Maturaarbeit an der Kantonsschule Wattwil untersucht.</p> 
 <p class="post-content">Entstanden ist folgende Bilderserie, für die ich eine Fotoausstellung organisiert habe.</p>
 
 <img class="post-img" src="../../../../img/photography/1_fussgeschichten_9.jpg" width="100%">
