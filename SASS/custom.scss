@@ -1,3 +1,4 @@
+@import 'fonts';
 html {
     font-family: 'Open Sans', sans-serif;
 }
@@ -7,8 +8,7 @@ body {
 }
 
 h1 {
-    font-family: AvenirNextCondensed-Bold, Avenir Next Condensed;
-    font-weight: 700;
+    font-family: "AvenirNextCondensed";
     font-size: 23px;
     text-transform: uppercase;
 }
@@ -18,6 +18,12 @@ h2 {
     font-size: 15px;
     text-transform: uppercase;
     color: #BBBBBB;
+}
+
+#likes {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;  
 }
 
 p {
@@ -45,6 +51,20 @@ header {
     text-align: center;
     background: white;
     z-index: 50;
+}
+
+.facts {
+    font-size: 13px; 
+    line-height: 1.5em;
+    width: calc(100% - 60px);
+    margin: 0 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 4px 4px 4px 2px;
+    border-top: none;
 }
 
 
@@ -240,7 +260,11 @@ Kategorien Seiten
     top: 30px;
 }
 
-.fa:hover {
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-edit:hover,
+.fa-comment-o:hover,
+.fa-envelope-o:hover {
     color: lightgrey;
     cursor: pointer;
 }
@@ -287,12 +311,13 @@ Category Grid System
 .category-content {
     height: 100%;
     width: 100%;
+    overflow: hidden;
     padding-top: 140px;
     padding-bottom: 44px;
     
     @media (min-width: 768px) {
-     padding-left: 3%;
-     padding-right: 3%;
+     padding-left: 5%;
+     padding-right: 5%;
     }
 }
 
@@ -308,11 +333,11 @@ Category Grid System
         height: 270px;
     }
     @media (min-width: 768px) {
-     border-top: 10px solid white;
+     border-top: 20px solid white;
      border-left: 15px solid white;
      border-right: 15px solid white;
-    background: grey;  /* nur zum sehen wie gross bilder sein müssten */
-     height: 280px;
+    background: black;  /* nur zum sehen wie gross bilder sein müssten */
+     height: 270px;
     }
 }
 
@@ -389,7 +414,7 @@ Post Header
 *************************************************************** */
 
 .header-post {
-    height: 120px;
+    height: 100px;
 }
 
 .post-category-title {
@@ -398,7 +423,7 @@ Post Header
     font-size: 20px;
     position: absolute;
     left: 30px;
-    top: 12px;
+    top: 2px;
     text-align: left;
 }
 
@@ -417,18 +442,13 @@ Post Header
 .post-header .fa-angle-left {
     position: absolute;
     left: 0px;
-    top: 30px;
-}
-
-.fa:hover {
-    color: lightgrey;
-    cursor: pointer;
+    top: 20px;
 }
 
 .post-header .fa-angle-right {
     position: absolute;
     right: 0px;
-    top: 30px;
+    top: 20px;
 }
 
 #navbar-post-svg {
@@ -436,7 +456,7 @@ Post Header
     fill: lightgrey;
     position: absolute;
     right: 30px;
-    top: 15px;
+    top: 5px;
 }
 
 
@@ -462,7 +482,7 @@ Post Inhalt
 .post-main {
     height: 100%;
     width: 100%;
-    padding-top: 120px;
+    padding-top: 100px; // gleich wie height von .header-post
     padding-bottom: 34px;
 }
 

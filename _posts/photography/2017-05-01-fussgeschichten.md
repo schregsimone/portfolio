@@ -3,12 +3,30 @@ layout: post
 title: Fussgeschichten
 meta: I <i class="fa fa-heart-o" aria-hidden="true"></i> storytelling in low angle
 category: photography
-category-title: PHOTO-<br>GRAPHY
+category-title: FOTO-<br>GRAFIE
 category-url: photography.html
 image: ../img/photography/1_fussgeschichten_1.jpg
 ---
 
-<p class="post-content">This is a selection of photographs I took for my graduation work at the Wattwil School of Higher Education. I wrote about the different aspects of photography and how photographs are able to tell stories. In addition I organized a photo exibition with pictures all shot in low angle.</p>
+<table class="post-content facts table">
+    <tr>
+        <th>Entstehung:</th>
+        <td>Herbstsemester 2013</td>
+    </tr>
+    <tr>
+        <th>Kontext:</th>
+        <td>Maturaarbeit</td>
+    </tr>
+    <tr>
+        <th>Tätigkeiten:</th>
+        <td>Konzeption, Fotografie, Bildbearbeitung, Ausstellung</td>
+    </tr>
+</table>
+
+<p class="post-content">«Ein Bild sagt mehr als tausend Worte.»</p>
+
+<p class="post-content">Fotografie scheint also das perfekt Medium für schreibfaule Geschichtenerzähler, wie ich es bin, zu sein. Ob das wirklich so ist und ob das visuelle Storytelling auch aus einer ungewohnten Perspektive funktioniert, habe ich in meiner Maturaarbeit an der Kantonsschule Wattwil untersucht.</p> 
+<p class="post-content">Entstanden ist folgende Bilderserie, für die ich eine Fotoausstellung organisiert habe.</p>
 
 <img class="post-img" src="../../../../img/photography/1_fussgeschichten_9.jpg" width="100%">
 

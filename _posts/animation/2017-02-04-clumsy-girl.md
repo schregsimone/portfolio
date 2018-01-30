@@ -8,6 +8,20 @@ category-url: animation.html
 image: ../img/animation/02_little_girl_2.jpg
 ---
 
+<table class="post-content facts table">
+    <tr>
+        <th>Entstehung:</th>
+        <td>Frühlingssemester 2017</td>
+    </tr>
+    <tr>
+        <th>Kontext:</th>
+        <td>Modul Visualisieren, 4. Semester</td>
+    </tr>
+    <tr>
+        <th>Tätigkeiten:</th>
+        <td>Character Design, Animation</td>
+    </tr>
+</table>
 
 <p class="post-content">As part of the animation class we had to design a character and animate it in three different gifs. I chose to draw a clumsy mini-me.</p>
 

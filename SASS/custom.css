@@ -1,27 +1,38 @@
 @charset "UTF-8";
-/* line 1, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+@font-face {
+  font-family: "AvenirNextCondensed";
+  src: url("../fonts/AvenirNextCondensed-Bold-01.ttf");
+  src: url("../fonts/AvenirNextCondensed-Bold-01.ttf") format("truetype");
+  font-style: bold; }
+
+/* line 2, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 html {
   font-family: 'Open Sans', sans-serif; }
 
-/* line 5, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 6, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 body {
   height: 100%; }
 
-/* line 9, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 10, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 h1 {
-  font-family: AvenirNextCondensed-Bold, Avenir Next Condensed;
-  font-weight: 700;
+  font-family: "AvenirNextCondensed";
   font-size: 23px;
   text-transform: uppercase; }
 
-/* line 16, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 16, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   text-transform: uppercase;
   color: #BBBBBB; }
 
-/* line 23, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 23, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
+#likes {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase; }
+
+/* line 29, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
@@ -30,15 +41,15 @@ p {
   text-transform: none;
   color: black; }
 
-/* line 32, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 38, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 p > a {
   color: #BBBBBB; }
 
-/* line 36, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 42, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 p > a:hover {
   color: black; }
 
-/* line 40, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 46, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 header {
   position: fixed;
   top: 0;
@@ -48,6 +59,20 @@ header {
   background: white;
   z-index: 50; }
 
+/* line 56, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
+.facts {
+  font-size: 13px;
+  line-height: 1.5em;
+  width: calc(100% - 60px);
+  margin: 0 30px;
+  margin-top: 15px;
+  margin-bottom: 10px; }
+
+/* line 65, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+  padding: 4px 4px 4px 2px;
+  border-top: none; }
+
 /* ***************************************************************
 /***************************************************************
 index.html
@@ -56,7 +81,7 @@ index.html
 /* ***************************************************************
 SVG MENU
 *************************************************************** */
-/* line 62, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 82, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .menu {
   position: absolute;
   top: 0;
@@ -68,7 +93,7 @@ SVG MENU
   height: 100%;
   padding: 20px; }
 
-/* line 74, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 94, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 #menu-svg {
   position: absolute;
   height: 75%;
@@ -79,13 +104,13 @@ SVG MENU
   padding-right: 40px;
   padding-left: 40px;
   margin: auto; }
-  /* line 85, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+  /* line 105, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
   #menu-svg path {
     stroke-dasharray: 7000;
     stroke-dashoffset: 0;
     animation: dash 6s linear forwards;
     visibility: hidden; }
-  /* line 92, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+  /* line 112, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
   #menu-svg path.cls-1 {
     animation-delay: 0.6s;
     -webkit-animation-delay: 0.6s; }
@@ -97,10 +122,10 @@ SVG MENU
     stroke-dashoffset: 0;
     visibility: visible; } }
 
-/* line 108, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 128, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .menu-link {
   z-index: 1; }
-  /* line 111, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+  /* line 131, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
   .menu-link:hover {
     text-decoration: none;
     fill: lightgrey;
@@ -109,7 +134,7 @@ SVG MENU
 /* ***************************************************************
 ABOUT Button und Tab
 *************************************************************** */
-/* line 122, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 142, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .about-link {
   position: fixed;
   right: 0;
@@ -125,14 +150,14 @@ ABOUT Button und Tab
   font-weight: 700;
   z-index: 100; }
 
-/* line 138, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 158, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .mcbtn:hover,
 .mcbtn:active {
   text-decoration: none;
   color: lightgrey;
   cursor: pointer; }
 
-/* line 145, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 165, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .about-tab {
   height: 0;
   /* 0 height - change this with JavaScript */
@@ -150,38 +175,38 @@ ABOUT Button und Tab
   /* 0.5 second transition effect to slide in the sidenav */
   border-top: 5px solid black; }
 
-/* line 163, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 183, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .about-container {
   width: 100%;
   height: 100%; }
 
-/* line 168, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 188, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .about-text {
   padding-bottom: 90px; }
 
-/* line 172, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 192, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .img-wrapper {
   width: 100%;
   text-align: center; }
 
-/* line 177, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 197, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .about-text img {
   max-width: 500px;
   margin-top: 15px; }
 
-/* line 182, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 202, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .about-text h1,
 .about-text h2,
 .about-text p {
   text-align: left;
   padding: 0 30px; }
 
-/* line 189, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 209, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .about-like {
   color: black;
   margin: 30px 0; }
 
-/* line 194, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 214, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .social-icons {
   position: fixed;
   width: 100%;
@@ -192,7 +217,7 @@ ABOUT Button und Tab
   background: white;
   visibility: hidden; }
 
-/* line 205, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 225, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .social-icons i {
   margin: 10px 15px; }
 
@@ -201,11 +226,11 @@ ABOUT Button und Tab
 Kategorien Seiten
 /***************************************************************
 /*************************************************************** */
-/* line 216, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 236, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .header-category {
   height: 150px; }
 
-/* line 220, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 240, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .category-title {
   font-family: AvenirNextCondensed-Bold, Avenir Next Condensed;
   font-weight: 700;
@@ -215,31 +240,35 @@ Kategorien Seiten
   top: 60px;
   text-align: left; }
 
-/* line 230, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 250, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .category-header {
   position: relative;
   width: 320px;
   text-align: center;
   margin: 0 auto; }
 
-/* line 237, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 257, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .category-header .fa-angle-left {
   position: absolute;
   left: 0px;
   top: 30px; }
 
-/* line 243, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
-.fa:hover {
+/* line 263, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-edit:hover,
+.fa-comment-o:hover,
+.fa-envelope-o:hover {
   color: lightgrey;
   cursor: pointer; }
 
-/* line 248, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 272, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .category-header .fa-angle-right {
   position: absolute;
   right: 0px;
   top: 30px; }
 
-/* line 254, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 278, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 #_1_active,
 #_2_active,
 #_3_active,
@@ -247,38 +276,39 @@ Kategorien Seiten
 #_5_active {
   fill: black; }
 
-/* line 262, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 286, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 #navbar-svg {
   height: 109px;
   fill: lightgrey; }
 
 /* hover macht punkte grau */
-/* line 270, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 294, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 #navbar-svg:hover {
   fill: lightgrey;
   cursor: pointer; }
 
 /* hover macht pfad grau */
-/* line 278, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 302, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 #navbar-svg:hover path {
   stroke: lightgrey; }
 
 /* ***************************************************************
 Category Grid System
 *************************************************************** */
-/* line 287, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 311, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .category-content {
   height: 100%;
   width: 100%;
+  overflow: hidden;
   padding-top: 140px;
   padding-bottom: 44px; }
   @media (min-width: 768px) {
-    /* line 287, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+    /* line 311, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
     .category-content {
-      padding-left: 3%;
-      padding-right: 3%; } }
+      padding-left: 5%;
+      padding-right: 5%; } }
 
-/* line 299, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 324, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .category-grid {
   height: 230px;
   margin-bottom: 0px;
@@ -287,20 +317,20 @@ Category Grid System
   overflow: hidden;
   text-align: center; }
   @media screen and (min-width: 570px) {
-    /* line 299, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+    /* line 324, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
     .category-grid {
       height: 270px; } }
   @media (min-width: 768px) {
-    /* line 299, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+    /* line 324, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
     .category-grid {
-      border-top: 10px solid white;
+      border-top: 20px solid white;
       border-left: 15px solid white;
       border-right: 15px solid white;
-      background: grey;
+      background: black;
       /* nur zum sehen wie gross bilder sein müssten */
-      height: 280px; } }
+      height: 270px; } }
 
-/* line 319, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 344, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .category-info-overlay {
   position: absolute;
   top: 0;
@@ -316,19 +346,19 @@ Category Grid System
   z-index: 2;
   padding-top: 50px; }
 
-/* line 335, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 360, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .category-link:hover,
 .category-link:focus {
   color: black; }
 
-/* line 340, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 365, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .category-link:hover .category-info-overlay,
 .category-link:active .category-info-overlay,
 .category-link:focus .category-info-overlay {
   opacity: 1;
   transition: .5s ease; }
 
-/* line 347, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 372, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .category-link:hover h1,
 .category-link:active h1,
 .category-link:focus h1 {
@@ -336,7 +366,7 @@ Category Grid System
   -moz-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
-/* line 355, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 380, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .category-link:hover p,
 .category-link:active p,
 .category-link:focus p {
@@ -344,14 +374,14 @@ Category Grid System
   -moz-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
-/* line 363, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 388, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .category-link p {
   font-family: 'Open Sans', sans-serif;
   font-weight: light;
   font-size: 15px;
   text-transform: uppercase; }
 
-/* line 370, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 395, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .category-img {
   position: absolute;
   top: 0;
@@ -368,87 +398,82 @@ Post Seiten
 /* ***************************************************************
 Post Header
 *************************************************************** */
-/* line 391, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 416, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .header-post {
-  height: 120px; }
+  height: 100px; }
 
-/* line 395, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 420, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .post-category-title {
   font-family: AvenirNextCondensed-Bold, Avenir Next Condensed;
   font-weight: 700;
   font-size: 20px;
   position: absolute;
   left: 30px;
-  top: 12px;
+  top: 2px;
   text-align: left; }
 
-/* line 405, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 430, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .post-category-title:hover {
   color: lightgrey;
   cursor: pointer; }
 
-/* line 410, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 435, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .post-header {
   position: relative;
   width: 320px;
   text-align: center;
   margin: 0 auto; }
 
-/* line 417, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 442, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .post-header .fa-angle-left {
   position: absolute;
   left: 0px;
-  top: 30px; }
+  top: 20px; }
 
-/* line 423, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
-.fa:hover {
-  color: lightgrey;
-  cursor: pointer; }
-
-/* line 428, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 448, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .post-header .fa-angle-right {
   position: absolute;
   right: 0px;
-  top: 30px; }
+  top: 20px; }
 
-/* line 434, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 454, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 #navbar-post-svg {
   height: 80px;
   fill: lightgrey;
   position: absolute;
   right: 30px;
-  top: 15px; }
+  top: 5px; }
 
 /* hover macht punkte grau */
-/* line 445, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 465, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 #navbar-post-svg:hover {
   fill: lightgrey;
   cursor: pointer; }
 
 /* hover macht pfad grau */
-/* line 453, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 473, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 #navbar-post-svg:hover path {
   stroke: lightgrey; }
 
 /* ***************************************************************
 Post Inhalt
 *************************************************************** */
-/* line 462, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 482, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .post-main {
   height: 100%;
   width: 100%;
-  padding-top: 120px;
+  padding-top: 100px;
   padding-bottom: 34px; }
 
-/* line 469, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 489, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .post-content {
   padding: 0 30px; }
 
-/* line 473, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 493, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .post-img {
   margin-top: 20px; }
 
-/* line 477, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 497, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .responsive-video {
   position: relative;
   padding-bottom: 56.25%;
@@ -457,7 +482,7 @@ Post Inhalt
   overflow: hidden;
   margin-top: 20px; }
 
-/* line 486, /Users/Simone/Documents/MMP/portfolio/SASS/custom.scss */
+/* line 506, /Users/Simone/Documents/MMP/portfolio/sass/custom.scss */
 .responsive-video iframe {
   position: absolute;
   top: 0;
