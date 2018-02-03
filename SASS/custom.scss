@@ -71,11 +71,6 @@ header {
     margin-bottom: 10px;
 }
 
-.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
-    padding: 4px 4px 4px 2px;
-    border-top: none;
-}
-
 
 /* ***************************************************************
 /***************************************************************
@@ -540,6 +535,24 @@ Post Inhalt
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 4px 4px 4px 2px;
+    border-top: none;
+}
+
+// damit erste Reihe immer gleich breit ist
+.table {
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+th { 
+width: 25%;
+    @media screen and (max-width: 400px) {
+        width: 35%;
+    }
 }
 
 

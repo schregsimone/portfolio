@@ -21,13 +21,13 @@ function closeNav() {
 }
 
 /* Text in About ändern */
-var text = ["multimedia production","good design","creative ideas","dancing","laughing","italian food","fluffy pullovers","travelling","all things sweet","shooting stars","snowboarding","bordeaux red","music festivals","chewing gums","rabbits","fast walking","memes","friendly people","Harry Potter","summer evenings","indie music","rollercoasters","chicken nuggets","audiobooks","photo exhibitions"];
+var text = ["multimedia production", "good design", "creative ideas", "dancing", "laughing", "italian food", "fluffy pullovers", "travelling", "all things sweet", "shooting stars", "snowboarding", "bordeaux red", "music festivals", "chewing gums", "rabbits", "fast walking", "memes", "friendly people", "Harry Potter", "summer evenings", "indie music", "rollercoasters", "chicken nuggets", "audiobooks", "photo exhibitions"];
 var index = 0;
 
 $("#likes").fadeOut("slow");
 
-setInterval(function(){
-    $("#likes").stop().html(text[index]).fadeIn("slow",function(){
+setInterval(function (){
+    $("#likes").stop().html(text[index]).fadeIn("slow",function() {
     	index++;
         $("#likes").delay(1000).fadeOut("slow");
     	if (index == 25) {
