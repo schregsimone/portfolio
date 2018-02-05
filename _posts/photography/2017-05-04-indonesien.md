@@ -5,7 +5,8 @@ meta: I <i class="fa fa-heart-o" aria-hidden="true"></i> different cultures
 category: photography
 category-title: FOTO-<br>GRAFIE
 category-url: photography.html
-image: ../img/photography/5_indonesien_1.jpg
+image-a: ../img/photography/5_indonesien_1a.jpg
+image-b: ../img/photography/5_indonesien_1b.jpg
 ---
 
 <table class="post-content facts table">
@@ -23,7 +24,7 @@ image: ../img/photography/5_indonesien_1.jpg
     </tr>
 </table>
 
-<p class="post-content"> Mit viel zu schwerem Rucksack, Kamera und einer guten Freundin reiste ich im Sommer 2017 vier Wochen lang durch Indonesien. Unsere Reise führte von Java über Bali bis nach Gili Trawangan, vorbei an schwimmenden Städten, gigantischen Tempelanlagen, wunderschönen Vulkanlandschaften, traumhaften Surfspots und mit Touristen überfüllten Reisfeldern. Einige meiner Eindrücke konnte ich fotografisch einfangen.</p>
+<p class="post-content"> Mit viel zu schwerem Rucksack, Kamera und einer guten Freundin reiste ich im Sommer 2017 vier Wochen lang durch Indonesien. Unsere Reise führte von Java über Bali bis nach Gili Trawangan. Vorbei an schwimmenden Städten, gigantischen Tempelanlagen, wunderschönen Vulkanlandschaften, traumhaften Surfspots und mit Touristen überfüllten Reisfeldern. Einige meiner Eindrücke konnte ich fotografisch einfangen.</p>
 
 <h3 class="post-content">Menschen</h3>
 

@@ -5,7 +5,8 @@ meta: I <i class="fa fa-heart-o" aria-hidden="true"></i> storytelling in low ang
 category: photography
 category-title: FOTO-<br>GRAFIE
 category-url: photography.html
-image: ../img/photography/1_fussgeschichten_1.jpg
+image-a: ../img/photography/1_fussgeschichten_1a.jpg
+image-b: ../img/photography/1_fussgeschichten_1b.jpg
 ---
 
 <table class="post-content facts table">

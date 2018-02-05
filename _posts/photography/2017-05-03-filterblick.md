@@ -5,7 +5,8 @@ meta: I <i class="fa fa-heart-o" aria-hidden="true"></i> infrared photography
 category: photography
 category-title: FOTO-<br>GRAFIE
 category-url: photography.html
-image: ../img/photography/4_filterblick_3.jpg
+image-a: ../img/photography/4_filterblick_3a.jpg
+image-b: ../img/photography/4_filterblick_3b.jpg
 ---
 
 <table class="post-content facts table">
@@ -29,7 +30,7 @@ image: ../img/photography/4_filterblick_3.jpg
 
 <p class="post-content">Was wir Menschen von der Welt sehen, ist nur ein Bruchteil von dem, was sie in Wirklichkeit zu bieten hat. Wer sich die Zeit nimmt und seine Umgebung mal durch einen Filter fotografiert, kann festhalten, was mit blossem Auge nicht sichtbar ist.</p>
 <p class="post-content">
-Fasziniert von der Infrarotfotografie habe ich eine Bilderserie fotografiert und diese zusammen mit Serainas Kurzgeschichte auf einer <a href="http://www.digezz.ch/projekte/filterblick/" target="_blank">Webseite</a> publiziert. 
+Fasziniert von der Infrarotfotografie haben wir eine Bilderserie fotografiert und diese zusammen mit Serainas Kurzgeschichte auf einer <a href="http://www.digezz.ch/projekte/filterblick/" target="_blank">Webseite</a> publiziert. 
 </p>
 
 <img class="post-img" src="../../../../img/photography/4_filterblick_1.jpg" width="100%">

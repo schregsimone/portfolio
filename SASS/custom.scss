@@ -136,6 +136,8 @@ SVG MENU
     text-decoration: none;
     fill: lightgrey;
     cursor: pointer;
+    -webkit-transition: fill .25s; /* Safari */
+    transition: fill .25s;
     }
 }
 
@@ -164,6 +166,8 @@ ABOUT Button und Tab
     text-decoration: none;
     color: lightgrey;
     cursor: pointer;
+    -webkit-transition: color .25s; /* Safari */
+    transition: color .25s;
 }
 
 .about-tab {
@@ -190,7 +194,9 @@ ABOUT Button und Tab
 }
 
 .about-text {
-    padding-bottom: 90px
+    padding-bottom: 90px;
+   // max-width: 800px;
+   // margin: 0 auto;
 }
 
 .img-wrapper {
@@ -224,6 +230,12 @@ ABOUT Button und Tab
     color: black;
     background: white;
     visibility: hidden;
+    a:hover,
+    a:active{
+        color: lightgray;
+        -webkit-transition: color .25s; /* Safari */
+        transition: color .25s;
+    }
 }
 
 .social-icons i {
@@ -273,6 +285,8 @@ Kategorien Seiten
 .fa-angle-right:hover {
     color: lightgrey;
     cursor: pointer;
+    -webkit-transition: color .25s; /* Safari */
+    transition: color .25s;
 }
 
 .category-header .fa-angle-right {
@@ -300,6 +314,8 @@ Kategorien Seiten
 #navbar-svg:hover {
     fill: lightgrey;
     cursor: pointer;
+    -webkit-transition: fill .25s; /* Safari */
+    transition: fill .25s;
 }
 
 
@@ -307,6 +323,8 @@ Kategorien Seiten
 
 #navbar-svg:hover path {
     stroke: lightgrey;
+    -webkit-transition: stroke .25s; /* Safari */
+    transition: stroke .25s;
 }
 
 
@@ -342,7 +360,7 @@ Category Grid System
      border-top: 20px solid white;
      border-left: 15px solid white;
      border-right: 15px solid white;
-    background: black;  /* nur zum sehen wie gross bilder sein müssten */
+    background: white;  /* nur zum sehen wie gross bilder sein müssten */
      height: 270px;
     }
 }
@@ -428,7 +446,7 @@ Post Header
     font-weight: 700;
     font-size: 20px;
     position: absolute;
-    left: 30px;
+    left: 32px;
     top: 2px;
     text-align: left;
 }
@@ -436,6 +454,8 @@ Post Header
 .post-category-title:hover {
     color: lightgrey;
     cursor: pointer;
+    -webkit-transition: color .25s; /* Safari */
+    transition: color .25s;
 }
 
 .post-header {
@@ -462,7 +482,7 @@ Post Header
     fill: lightgrey;
     position: absolute;
     right: 30px;
-    top: 5px;
+    top: 0px;
 }
 
 
@@ -471,6 +491,8 @@ Post Header
 #navbar-post-svg:hover {
     fill: lightgrey;
     cursor: pointer;
+    -webkit-transition: fill .25s; /* Safari */
+    transition: fill .25s;
 }
 
 
@@ -478,6 +500,8 @@ Post Header
 
 #navbar-post-svg:hover path {
     stroke: lightgrey;
+    -webkit-transition: stroke .25s; /* Safari */
+    transition: stroke .25s;
 }
 
 

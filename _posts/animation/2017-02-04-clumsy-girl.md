@@ -5,7 +5,8 @@ meta: I <i class="fa fa-heart-o" aria-hidden="true"></i> 2D animation
 category: animation
 category-title: VIDEO &amp;<br> ANIMATION
 category-url: animation.html
-image: ../img/animation/02_little_girl_2.jpg
+image-a: ../img/animation/02_little_girl_2a.jpg
+image-b: ../img/animation/02_little_girl_2b.jpg
 ---
 
 <table class="post-content facts table">

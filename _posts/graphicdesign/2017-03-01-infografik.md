@@ -5,7 +5,8 @@ meta: I <i class="fa fa-heart-o" aria-hidden="true"></i> infographics
 category: graphicdesign
 category-title: GRAFIK-<br>DESIGN
 category-url: graphicdesign.html
-image: ../img/graphicdesign/2_infografik_regenwald_1.jpg
+image-a: ../img/graphicdesign/2_infografik_regenwald_1a.jpg
+image-b: ../img/graphicdesign/2_infografik_regenwald_1b.jpg
 ---
 
 <table class="post-content facts table">
